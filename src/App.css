@@ -35,20 +35,20 @@
 .SearchForm input{
   
   width: 100px;
-  position: absolute;
+  position: relative;
   height: 20px;
-  left: 54%;
-  top: 12%;
+  top: 18%;
   
 }
 
 .SearchForm button{
   background-color: burlywood;
   color: black;
-  position: absolute;
+  position: relative;
   height: 27px;
-  right: 27%;
-  top: 12%;
+  left: 0px;
+  top: 18%;
+  
 }
 
 /* .SearchForm button{

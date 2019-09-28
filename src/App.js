@@ -31,7 +31,7 @@ export default class App extends React.Component{
         <p>First import MenuNav.js file. Then type in the elements name and elements link in App constructor state. 
           These two arrays should correspond one-to-one. Then set the component props. 
           For example, navElements=this.state.navElements, navElementLinks=this.state.navElementLinks.
-          As for the search form, I still need an API to finishi its function.</p>
+          As for the search form, I still need an API to complete its function.</p>
         <br></br>
         <p>Motivation:</p>
         <p>Every webpage has a navigation menu. With this component developers only have to type in elements name and elements link to create a navigation menu.</p>
