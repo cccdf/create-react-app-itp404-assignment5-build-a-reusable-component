@@ -1,4 +1,5 @@
 import React from 'react';
+import SearchForm from './SearchForm'
 import PropTypes from 'prop-types';
 
 
@@ -8,22 +9,11 @@ export default class MenuNav extends React.Component{
         this.state = {
             navElements: props.navElements,
             navElementsLinks: props.navElementLinks,
-            hover: false,
 
         };
     }
 
-    hoverOn = () => {
-        this.setState({
-            hover: true,
-        })
-    }
 
-    hoverOff = () => {
-        this.setState({
-            hover: false,
-        })
-    }
 
 
 
@@ -37,9 +27,7 @@ export default class MenuNav extends React.Component{
                         {this.state.navElements.map((element) => {
                             return (
 
-                                <li onMouseEnter={this.hoverOn} 
-                                    onMouseLeave={this.hoverOff}
-                                    >
+                                <li>
                                     <a href={this.state.navElementsLinks[linksIndex++]}>{element}</a>
                                 </li>
                                 
@@ -47,7 +35,7 @@ export default class MenuNav extends React.Component{
 
                         })}
                     </ul>
-                    <input></input>
+                    <SearchForm></SearchForm>
                 </div>
             </nav>
         );

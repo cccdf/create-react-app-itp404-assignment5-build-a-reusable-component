@@ -3,6 +3,7 @@
 .MenuNav div{
   display: flex;
   background-color: orange;
+  height: 40px;
 }
 
 .MenuNav li{
@@ -10,7 +11,7 @@
   display: inline;
   text-decoration: none;
 	list-style: none;
-	border: 15px solid orange;
+	border: 5px solid orange;
   background-color: orange;
   
 
@@ -20,7 +21,36 @@
   background-color: red;
 }
 
-.MenuNav input{
+/* .MenuNav input{
   position: absolute;
   right: 0;
+} */
+
+/* .SearchForm{
+  background-color: black;
+  position: relative;
+  right: 0px;
+} */
+
+.SearchForm input{
+  
+  width: 100px;
+  position: absolute;
+  height: 20px;
+  left: 54%;
+  top: 12%;
+  
 }
+
+.SearchForm button{
+  background-color: burlywood;
+  color: black;
+  position: absolute;
+  height: 27px;
+  right: 27%;
+  top: 12%;
+}
+
+/* .SearchForm button{
+
+} */
